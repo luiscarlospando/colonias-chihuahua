@@ -7,7 +7,7 @@ $.ajax({
         dataType: "json",
         success: function (data) {
             for (var i = 0; i < data.datos.length; i++) {
-                $("#cve_col").append("<option value='" + data.datos[i].cve_agee + "'>" + data.datos[i].nom_asen + "</option>");
+                $("#cve_col").append("<option value='" + data.datos[i].cve_asen + "'>" + data.datos[i].nom_asen + "</option>");
             }
         }, error: function (objeto, tipo, causa) {
             if (objeto.status == "404" || objeto.status == "200") {
