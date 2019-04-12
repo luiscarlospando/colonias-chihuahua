@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colonias de Chihuahua</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body onload="llamarApiDenueBus()">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="jumbotron my-4">
+                    <h1 class="display-4">Colonias de la ciudad de Chihuahua vía API del INEGI</h1>
+                    <p class="lead">
+                        <a href="https://www.inegi.org.mx/servicios/catalogoUnico.html">https://www.inegi.org.mx/servicios/catalogoUnico.html</a>
+                    </p>
+                    <hr class="my-4">
+                    <select class="custom-select custom-select-lg mb-3" id="cve_col">
+                        <option selected>Selecciona tu colonia</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="assets/js/wscatgeo.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "colonias-chihuahua",
+  "version": "1.0.0",
+  "description": "Consumo de las colonias de la ciudad de Chihuahua vía API del INEGI (https://www.inegi.org.mx/servicios/catalogoUnico.html)",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 7777",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscarlospando/colonias-chihuahua.git"
+  },
+  "author": "Luis Carlos Pando (@mijo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiscarlospando/colonias-chihuahua/issues"
+  },
+  "homepage": "https://github.com/luiscarlospando/colonias-chihuahua#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.0"
+  }
+}
